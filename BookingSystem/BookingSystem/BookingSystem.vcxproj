@@ -127,12 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BookingSystem.cpp" />
-    <ClCompile Include="pickCinema.cpp" />
+    <ClCompile Include="src\BookingSystem.cpp" />
+    <ClCompile Include="src\pickCinema.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h" />
-    <ClInclude Include="pickCinema.h" />
+    <ClInclude Include="include\main.h" />
+    <ClInclude Include="include\pch.h" />
+    <ClInclude Include="include\pickCinema.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

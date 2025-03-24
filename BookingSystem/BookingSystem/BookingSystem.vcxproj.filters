@@ -15,18 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BookingSystem.cpp">
+    <ClCompile Include="src\BookingSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="pickCinema.cpp">
+    <ClCompile Include="src\pickCinema.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h">
+    <ClInclude Include="include\main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pickCinema.h">
+    <ClInclude Include="include\pickCinema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

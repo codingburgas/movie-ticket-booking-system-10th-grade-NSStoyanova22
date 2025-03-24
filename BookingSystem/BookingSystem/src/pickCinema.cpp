@@ -1,4 +1,4 @@
-#include "pickCinema.h"
+#include "../include/pickCinema.h"
 using namespace std;
 
 struct City {
