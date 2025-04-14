@@ -21,6 +21,12 @@
     <ClCompile Include="src\pickCinema.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\register.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\main.h">
@@ -30,6 +36,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\login.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

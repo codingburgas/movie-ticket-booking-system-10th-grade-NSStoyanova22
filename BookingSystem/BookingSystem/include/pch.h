@@ -4,5 +4,7 @@
 #include<iomanip>
 #include <vector>
 #include <string>
-#include "pickCinema.h"
 #include <conio.h>
+#include "pickCinema.h"
+#include "register.h"
+#include "login.h"

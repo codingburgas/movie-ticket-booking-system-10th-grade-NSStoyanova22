@@ -1,33 +1,33 @@
 #include "../include/pickCinema.h"
-using namespace std;
+
 
 struct City {
-	string name;
-	vector<string> cinemas;
-    City(const string& cityName) {
+	std::string name;
+    std::vector<std::string> cinemas;
+    City(const std::string& cityName) {
         name = cityName;
     }
 
     
-    void addCinema(const string& cinema) {
+    void addCinema(const std::string& cinema) {
         cinemas.push_back(cinema);
     }
 
     void displayCinemas() const {
-        cout << "Cinemas in " << name << ":\n";
+        std::cout << "Cinemas in " << name << ":\n";
         for (const auto& cinema : cinemas) {
-            cout << "- " << cinema << "\n";
+            std::cout << "- " << cinema << "\n";
         }
     }
 };
 
 void pickCinema() {
 	// start message
-    cout << "Ready to book your next movie?" << endl << "Pick a city!" << endl;
+    std::cout << "Ready to book your next movie?" << std::endl << "Pick a city!" << std::endl;
     // display and choose cities
-    cout << "1. Burgas" << endl << "2. Sofia" << endl;
+    std::cout << "1. Burgas" << std::endl << "2. Sofia" << std::endl;
     int cityNum;
-    cin >> cityNum;
+    std::cin >> cityNum;
     // add info to struct
     City burgas("Burgas");
     burgas.addCinema("Cinema City Burgas");
