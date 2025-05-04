@@ -1,0 +1,114 @@
+{
+  "cities": [
+    {
+      "name": "Sofia",
+      "cinemas": [
+        "Cinema City Mall of Sofia",
+        "Cinema City Paradise",
+        "Arena The Mall",
+        "Arena Zapad",
+        "Odeon Kino",
+        "Dom na Kinoto",
+        "G8 Cinema",
+        "Euro Cinema",
+        "Vlaikova Cinema"
+      ]
+    },
+    {
+      "name": "Plovdiv",
+      "cinemas": [
+        "Cinema City Plovdiv",
+        "Faces Cinema",
+        "Lucky Cinema"
+      ]
+    },
+    {
+      "name": "Varna",
+      "cinemas": [
+        "Arena Mall Varna",
+        "Cinema City Varna",
+        "Festival and Congress Centre Varna"
+      ]
+    },
+    {
+      "name": "Burgas",
+      "cinemas": [
+        "Cinema City Galleria Burgas",
+        "Flora Cinema Burgas"
+      ]
+    },
+    {
+      "name": "Ruse",
+      "cinemas": [
+        "Arena Mall Ruse",
+        "Europe Cinema Ruse"
+      ]
+    },
+    {
+      "name": "Stara Zagora",
+      "cinemas": [
+        "Arena Stara Zagora"
+      ]
+    },
+    {
+      "name": "Pleven",
+      "cinemas": [
+        "Arena Pleven"
+      ]
+    },
+    {
+      "name": "Veliko Tarnovo",
+      "cinemas": [
+        "Cinema Palace Veliko Tarnovo"
+      ]
+    },
+    {
+      "name": "Blagoevgrad",
+      "cinemas": [
+        "Cinema Cineplex Blagoevgrad"
+      ]
+    },
+    {
+      "name": "Shumen",
+      "cinemas": [
+        "Arena Shumen"
+      ]
+    },
+    {
+      "name": "Dobrich",
+      "cinemas": [
+        "Cinema Club Dobrich"
+      ]
+    },
+    {
+      "name": "Sliven",
+      "cinemas": [
+        "Arena Sliven"
+      ]
+    },
+    {
+      "name": "Yambol",
+      "cinemas": [
+        "Cinema Yambol Plaza"
+      ]
+    },
+    {
+      "name": "Haskovo",
+      "cinemas": [
+        "Haskovo Cinema Center"
+      ]
+    },
+    {
+      "name": "Pazardzhik",
+      "cinemas": [
+        "Pazardzhik Movie House"
+      ]
+    },
+    {
+      "name": "Montana",
+      "cinemas": [
+        "Montana Cinema Hall"
+      ]
+    }
+  ]
+}
