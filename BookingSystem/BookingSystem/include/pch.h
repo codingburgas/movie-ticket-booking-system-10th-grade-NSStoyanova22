@@ -5,6 +5,9 @@
 #include <vector>
 #include <string>
 #include <conio.h>
-#include "pickCinema.h"
-#include "register.h"
-#include "login.h"
+#include <fstream>
+#include "../../DAL/include/json.hpp"
+
+
+using nlohmann::ordered_json;
+using json = nlohmann::json;
