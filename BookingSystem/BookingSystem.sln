@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BookingSystem", "BookingSystem\BookingSystem.vcxproj", "{61035AA6-6666-4818-8A69-D29B71605327}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BLL", "BLL\BLL.vcxproj", "{33A9BC94-2149-431D-8C95-8F8602C0346D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DAL", "DAL\DAL.vcxproj", "{74C3E6CA-9514-4B7C-8065-F629079B7672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{61035AA6-6666-4818-8A69-D29B71605327}.Release|x64.Build.0 = Release|x64
 		{61035AA6-6666-4818-8A69-D29B71605327}.Release|x86.ActiveCfg = Release|Win32
 		{61035AA6-6666-4818-8A69-D29B71605327}.Release|x86.Build.0 = Release|Win32
+		{33A9BC94-2149-431D-8C95-8F8602C0346D}.Debug|x64.ActiveCfg = Debug|x64
+		{33A9BC94-2149-431D-8C95-8F8602C0346D}.Debug|x64.Build.0 = Debug|x64
+		{33A9BC94-2149-431D-8C95-8F8602C0346D}.Debug|x86.ActiveCfg = Debug|Win32
+		{33A9BC94-2149-431D-8C95-8F8602C0346D}.Debug|x86.Build.0 = Debug|Win32
+		{33A9BC94-2149-431D-8C95-8F8602C0346D}.Release|x64.ActiveCfg = Release|x64
+		{33A9BC94-2149-431D-8C95-8F8602C0346D}.Release|x64.Build.0 = Release|x64
+		{33A9BC94-2149-431D-8C95-8F8602C0346D}.Release|x86.ActiveCfg = Release|Win32
+		{33A9BC94-2149-431D-8C95-8F8602C0346D}.Release|x86.Build.0 = Release|Win32
+		{74C3E6CA-9514-4B7C-8065-F629079B7672}.Debug|x64.ActiveCfg = Debug|x64
+		{74C3E6CA-9514-4B7C-8065-F629079B7672}.Debug|x64.Build.0 = Debug|x64
+		{74C3E6CA-9514-4B7C-8065-F629079B7672}.Debug|x86.ActiveCfg = Debug|Win32
+		{74C3E6CA-9514-4B7C-8065-F629079B7672}.Debug|x86.Build.0 = Debug|Win32
+		{74C3E6CA-9514-4B7C-8065-F629079B7672}.Release|x64.ActiveCfg = Release|x64
+		{74C3E6CA-9514-4B7C-8065-F629079B7672}.Release|x64.Build.0 = Release|x64
+		{74C3E6CA-9514-4B7C-8065-F629079B7672}.Release|x86.ActiveCfg = Release|Win32
+		{74C3E6CA-9514-4B7C-8065-F629079B7672}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

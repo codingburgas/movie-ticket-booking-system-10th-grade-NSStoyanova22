@@ -1,5 +1,6 @@
 #include "../include/pch.h"
-
+#include "../include/register.h"
+#include "../include/login.h"
 int main()
 {
     Register registerPage;

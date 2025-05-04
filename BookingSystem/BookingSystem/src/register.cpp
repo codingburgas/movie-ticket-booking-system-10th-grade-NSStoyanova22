@@ -6,50 +6,52 @@ void Register::display() {
     std::cout << "|           Welcome !         |\n";
     std::cout << "+-----------------------------+\n";
 
-    std::string username, firstName, lastName, email, password;
-
-
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     std::cout << "Username: ";
-    getline(std::cin, username);
-    while (username.empty()) {
+    getline(std::cin, credentials::username);
+    while (credentials::username.empty()) {
         std::cout << "Username cannot be empty!\n";
         std::cout << "Username: ";
-        getline(std::cin, username);
+        getline(std::cin, credentials::username);
     }
 
     std::cout << "First name: ";
-    getline(std::cin, firstName);
-    while (firstName.empty()) {
+    getline(std::cin, credentials::firstName);
+    while (credentials::firstName.empty()) {
         std::cout << "First name cannot be empty!\n";
         std::cout << "First name: ";
-        getline(std::cin, firstName);
+        getline(std::cin, credentials::firstName);
     }
 
     std::cout << "Last name: ";
-    getline(std::cin, lastName);
-    while (lastName.empty()) {
+    getline(std::cin, credentials::lastName);
+    while (credentials::lastName.empty()) {
         std::cout << "Last name cannot be empty!\n";
         std::cout << "Last name: ";
-        getline(std::cin, lastName);
+        getline(std::cin, credentials::lastName);
     }
 
     std::cout << "Email: ";
-    getline(std::cin, email);
-    while (email.empty()) {
-        std::cout << "Email cannot be empty!\n";
+    getline(std::cin, credentials::email);
+    while (!checkEmail(credentials::email)) {
+        std::cout << "Input valid email!\n";
         std::cout << "Email: ";
-        getline(std::cin, email);
+        getline(std::cin, credentials::email);
     }
 
     std::cout << "Password: ";
-    getline(std::cin, password);
-    while (password.empty()) {
-        std::cout << "Password cannot be empty!\n";
+    hidePassword(credentials::password);
+    while (!checkPassword(credentials::password)) {
+        std::cout << "Invalid password!\n";
         std::cout << "Password: ";
-        getline(std::cin, password);
+        hidePassword(credentials::password);
     }
 
+    checkAndInsertCreds();
 
+}
 
+void Register::checkAndInsertCreds() {
+    if (!checkValidity(credentials::username, credentials::email, credentials::password)) std::cout << "Invalid credentials!\n";
+    else insertRecord(credentials::username, credentials::firstName, credentials::lastName, credentials::email, credentials::password);
 }
