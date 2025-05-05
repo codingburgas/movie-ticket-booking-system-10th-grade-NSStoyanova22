@@ -1,6 +1,6 @@
 #include "../include/login.h"
 
-void Login::display() {
+void Login::display(PageHandler& pages) {
         system("CLS");
         std::cout << "+-----------------------------+\n";
         std::cout << "|           Welcome !         |\n";

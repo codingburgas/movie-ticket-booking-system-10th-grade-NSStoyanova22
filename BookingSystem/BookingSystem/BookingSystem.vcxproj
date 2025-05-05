@@ -127,15 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\BookingSystem.cpp" />
+    <ClCompile Include="src\app.cpp" />
+    <ClCompile Include="src\bookingSystem.cpp" />
     <ClCompile Include="src\login.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\pageHandler.cpp" />
     <ClCompile Include="src\pickCinema.cpp" />
     <ClCompile Include="src\register.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\app.h" />
+    <ClInclude Include="include\bookingSystem.h" />
     <ClInclude Include="include\json.hpp" />
     <ClInclude Include="include\login.h" />
-    <ClInclude Include="include\main.h" />
+    <ClInclude Include="include\pageHandler.h" />
     <ClInclude Include="include\pch.h" />
     <ClInclude Include="include\pickCinema.h" />
     <ClInclude Include="include\register.h" />
