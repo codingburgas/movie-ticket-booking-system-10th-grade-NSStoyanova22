@@ -5,5 +5,12 @@
         "lastName": "n",
         "email": "n@gmail.com",
         "password": "Wat123!"
+    },
+    "2": {
+        "username": "n",
+        "firstName": "n",
+        "lastName": "n",
+        "email": "n@gmail.com",
+        "password": "Wat123!"
     }
 }
