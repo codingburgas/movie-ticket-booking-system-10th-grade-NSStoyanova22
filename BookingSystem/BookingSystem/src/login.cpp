@@ -17,9 +17,11 @@ void DrawTextBox(Rectangle box, const std::string& text, bool isActive, bool isP
     DrawRectangleLines((int)box.x, (int)box.y, (int)box.width, (int)box.height, DARKGRAY);
 }
 
-void Login::display() {
+
+void Login::display(PageHandler& pages) {
     const int screenWidth = 800;
     const int screenHeight = 600;
+
 
     InitWindow(screenWidth, screenHeight, "Raylib Login Screen");
     SetTargetFPS(60);
