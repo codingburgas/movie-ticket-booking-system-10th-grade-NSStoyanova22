@@ -1,6 +1,8 @@
 #include "../include/pch.h"
 #include "../include/register.h"
 #include "../include/login.h"
+#include "raylib.h"
+
 int main()
 {
     Register registerPage;
