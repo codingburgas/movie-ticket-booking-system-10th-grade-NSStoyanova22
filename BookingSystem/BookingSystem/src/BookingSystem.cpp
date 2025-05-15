@@ -1,6 +1,12 @@
+
+#include "../include/pch.h"
+#include "../include/register.h"
+#include "../include/login.h"
+#include "raylib.h"
 #include "../include/bookingSystem.h"
 
 void BookingSystem::display()
+
 
 {
     std::cout << "=======================\n";
