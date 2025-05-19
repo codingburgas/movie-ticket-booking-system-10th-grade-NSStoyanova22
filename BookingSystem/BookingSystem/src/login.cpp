@@ -23,7 +23,7 @@ void Login::display(PageHandler& pages) {
     const int screenHeight = 600;
 
 
-    InitWindow(screenWidth, screenHeight, "Raylib Login Screen");
+    InitWindow(screenWidth, screenHeight, "Booking System");
     SetTargetFPS(60);
 
     Rectangle usernameBox = { 300, 150, 200, 40 };
@@ -80,9 +80,8 @@ void Login::display(PageHandler& pages) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
 
-        DrawText("+-----------------------------+", 240, 50, 20, DARKBLUE);
-        DrawText("|        Welcome !           |", 250, 80, 20, DARKBLUE);
-        DrawText("+-----------------------------+", 240, 110, 20, DARKBLUE);
+        DrawText(" Welcome back!", 250, 80, 20, DARKBLUE);
+      
 
         DrawText("Username:", 200, 160, 20, BLACK);
         DrawText("Email:", 200, 220, 20, BLACK);
