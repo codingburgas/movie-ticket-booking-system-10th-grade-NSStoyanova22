@@ -6,8 +6,10 @@
 
 class Login {
 public:
-	void display();
+	void display(PageHandler& pages);
 	void inputCreds();
 	void checkCreds();
-
+private:
+	Texture2D  backgroundPng;
+	void unloadTexture();
 };

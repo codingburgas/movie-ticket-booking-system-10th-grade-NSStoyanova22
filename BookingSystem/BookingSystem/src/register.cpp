@@ -1,6 +1,6 @@
 #include "../include/register.h"
 
-void Register::display() {
+void Register::display(PageHandler& pages) {
     system("CLS");
     std::cout << "+-----------------------------+\n";
     std::cout << "|           Welcome !         |\n";
