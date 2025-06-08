@@ -1,16 +1,24 @@
 {
-    "1": {
-        "username": "n",
-        "firstName": "m",
-        "lastName": "n",
-        "email": "n@gmail.com",
-        "password": "Wat123!"
-    },
-    "2": {
-        "username": "n",
-        "firstName": "n",
-        "lastName": "n",
-        "email": "n@gmail.com",
-        "password": "Wat123!"
-    }
+  "1": {
+    "username": "n",
+    "firstName": "m",
+    "lastName": "n",
+    "email": "n@gmail.com",
+    "password": "Wat123!"
+  },
+  "2": {
+    "username": "n",
+    "firstName": "n",
+    "lastName": "n",
+    "email": "n@gmail.com",
+    "password": "Wat123!"
+  },
+  "3": {
+    "username": "admin",
+    "firstName": "admin",
+    "lastName": "",
+    "email": "admin@gmail.com",
+    "password": "adminPass123!"
+  }
+
 }
