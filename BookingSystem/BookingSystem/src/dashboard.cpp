@@ -84,7 +84,7 @@ void Dashboard::actionHandler(PageHandler& pages) {
         pages.menuPageShouldDisplay = true;
         pages.dashboardPageShouldDisplay = false;
         system("CLS");
-        std::cout << "You have been signed out!\n";
+        std::cout << "You have been signed out!\n\n";
         return;
     default:
         std::cout << "Invalid option.\n";

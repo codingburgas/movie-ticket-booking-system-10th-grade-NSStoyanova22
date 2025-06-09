@@ -74,3 +74,17 @@ bool loginUser(std::string username, std::string email, std::string password)
     std::cout << "User not found." << std::endl;
     return false;
 }
+//void getCities() {
+//    std::ifstream inFile("../../BookingSystem/Data/accounts.json");
+//    ordered_json data;
+//
+//    if (!inFile) {
+//        std::cout << "Error opening file" << std::endl;
+//        return false;
+//    }
+//
+//    if (inFile.peek() != std::ifstream::traits_type::eof()) {
+//        inFile >> data;
+//    }
+//    inFile.close();
+//}
