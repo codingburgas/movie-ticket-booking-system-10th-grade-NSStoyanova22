@@ -22,6 +22,7 @@ void App::pageHandler() {
 	}
 	if (pages.dashboardPageShouldDisplay) {
 		dash.display(pages);
+		dash.actionHandler(pages);
 		return;
 	}
 	if (pages.exitApp) {
