@@ -8,4 +8,5 @@ public:
     bool registerPageShouldDisplay;
     bool loginPageShouldDisplay;
     bool dashboardPageShouldDisplay;
+    bool pickACinemaPageShouldDisplay;
 };

@@ -5,6 +5,7 @@
 #include "login.h"
 #include "dashboard.h"
 #include "bookingSystem.h"
+#include"pickCinema.h"
 
 class App {
 public:
@@ -16,7 +17,7 @@ private:
 	Login login;
 	Register reg;
 	Dashboard dash;
+	pickCinema pickC;
 	PageHandler pages;
-
 	bool running = true;
 };

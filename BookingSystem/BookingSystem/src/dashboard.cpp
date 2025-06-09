@@ -43,7 +43,8 @@ void Dashboard::actionHandler(PageHandler& pages) {
 
         break;
     case 2:
-
+        pages.pickACinemaPageShouldDisplay = true;
+        pages.dashboardPageShouldDisplay = false;
         break;
     case 3:
 
