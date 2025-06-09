@@ -6,5 +6,7 @@
 class Dashboard {
 public:
 	void display(PageHandler& pages);
+	void actionHandler(PageHandler& pages);
+
 
 };
