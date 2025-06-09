@@ -20,6 +20,11 @@ void App::pageHandler() {
 		login.display(pages);
 		return;
 	}
+	if (pages.dashboardPageShouldDisplay) {
+		dash.display(pages);
+		dash.actionHandler(pages);
+		return;
+	}
 	if (pages.exitApp) {
 		running = false;
 		return;

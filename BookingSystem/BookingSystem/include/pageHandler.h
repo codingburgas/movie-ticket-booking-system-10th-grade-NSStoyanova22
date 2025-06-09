@@ -7,4 +7,5 @@ public:
     bool menuPageShouldDisplay;
     bool registerPageShouldDisplay;
     bool loginPageShouldDisplay;
+    bool dashboardPageShouldDisplay;
 };

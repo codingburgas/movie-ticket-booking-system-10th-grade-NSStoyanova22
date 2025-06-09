@@ -11,4 +11,6 @@ bool checkValidity(std::string& username, std::string& email, std::string& passw
 
 void hidePassword(std::string& password);
 
+bool ifAdmin(std::string username);
+
 std::string createFileLine(std::string& username, std::string& email, std::string& password);

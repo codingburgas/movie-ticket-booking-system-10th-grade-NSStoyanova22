@@ -5,6 +5,7 @@ PageHandler::PageHandler() {
     menuPageShouldDisplay = true;
     registerPageShouldDisplay = false;
     loginPageShouldDisplay = false;
+    dashboardPageShouldDisplay = false;
 }
 
 PageHandler pages;
