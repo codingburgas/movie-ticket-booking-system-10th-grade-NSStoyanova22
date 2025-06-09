@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClCompile Include="src\app.cpp" />
     <ClCompile Include="src\bookingSystem.cpp" />
+    <ClCompile Include="src\dashboard.cpp" />
     <ClCompile Include="src\login.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\pageHandler.cpp" />
@@ -141,6 +142,7 @@
   <ItemGroup>
     <ClInclude Include="include\app.h" />
     <ClInclude Include="include\bookingSystem.h" />
+    <ClInclude Include="include\dashboard.h" />
     <ClInclude Include="include\json.hpp" />
     <ClInclude Include="include\login.h" />
     <ClInclude Include="include\pageHandler.h" />

@@ -96,3 +96,10 @@ std::string createFileLine(std::string& username, std::string& email, std::strin
     inputLine = username + " " + email + " " + password;
     return inputLine;
 }
+
+bool ifAdmin(std::string username) {
+    if (username == "admin") {
+        return true;
+    }
+    return false;
+}

@@ -10,7 +10,8 @@ void Login::display(PageHandler& pages) {
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     Login::inputCreds();
 
-
+    pages.loginPageShouldDisplay = false;
+    pages.dashboardPageShouldDisplay = true;
 
 }
 
@@ -40,9 +41,7 @@ void Login::inputCreds() {
     }
 
     Login::checkCreds();
-    if (Login::ifAdmin(credentials::username)) {
-        std::cout << "YES!!!";
-    }
+   
 }
 
 void Login::checkCreds() {
@@ -61,11 +60,6 @@ void Login::checkCreds() {
 
         Login::inputCreds();
     }
+    
 }
 
-bool Login::ifAdmin(std::string username) {
-    if (username == "admin") {
-        return true;
-    }
-    return false;
-}
