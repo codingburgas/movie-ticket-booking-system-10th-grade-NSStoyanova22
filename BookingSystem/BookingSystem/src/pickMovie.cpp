@@ -1,15 +1,15 @@
-#include "../include/pickCinema.h"
+#include "../include/pickMovie.h"
 
 
 
-void pickCinema::display(PageHandler& pages) {
+void pickMovie::display(PageHandler& pages) {
     system("CLS");
     std::cout << bookingInfo::city << std::endl << bookingInfo::cinema << std::endl;
     ordered_json data = getCitiesData(); 
     for (const auto& city : data["cities"]) {
         if (city["name"] == bookingInfo::city) {
             for (const auto& cinema : city["cinemas"]) {
-                if (cinema["name"] == bookingInfo::cinema) {
+                if (cinema == bookingInfo::cinema){
                     std::cout << "Available movies:\n";
                     int i = 1;
                     for (const auto& movie : cinema["movies"]) {
@@ -40,7 +40,7 @@ void pickCinema::display(PageHandler& pages) {
 }
 
 
-void pickCinema::actionHandler(PageHandler& pages) {
+void pickMovie::actionHandler(PageHandler& pages) {
 
 
 }

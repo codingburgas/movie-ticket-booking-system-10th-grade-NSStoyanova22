@@ -45,9 +45,12 @@ void pickCinema::display(PageHandler& pages) {
         std::cout << "Invalid cinema choice.\n";
         return;
     }
-
+    else {
+        pages.pickACinemaPageShouldDisplay = false;
+        pages.pickAMovieShouldDisplay = true;
+    }
    
-    bookingInfo::cinema = cinemas[cinemaIndex];
+    bookingInfo::cinema = cinemas[cinemaIndex].get<std::string>();
     
     
   
