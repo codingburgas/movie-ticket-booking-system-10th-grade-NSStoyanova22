@@ -9,4 +9,5 @@ public:
     bool loginPageShouldDisplay;
     bool dashboardPageShouldDisplay;
     bool pickACinemaPageShouldDisplay;
+    bool pickAMovieShouldDisplay;
 };

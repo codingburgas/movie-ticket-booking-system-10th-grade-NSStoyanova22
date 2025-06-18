@@ -76,24 +76,19 @@ bool loginUser(std::string username, std::string email, std::string password)
 }
 
 
-void getCities() {
+ordered_json getCitiesData() {
     std::ifstream inFile("../../BookingSystem/Data/cities.json");
     ordered_json data;
 
     if (!inFile) {
         std::cout << "Error opening file" << std::endl;
-
+        return {};
     }
 
     if (inFile.peek() != std::ifstream::traits_type::eof()) {
         inFile >> data;
     }
-    inFile.close();
 
-    int i = 1;
-    for (const auto& city : data["cities"]) {
-        std::string cityName = city["name"];
-        std::cout << i <<" > " << cityName << std::endl;
-        i++;
-    }
+    inFile.close();
+    return data;
 }
