@@ -1,5 +1,23 @@
 #include "../include/seatSelection.h"
 
+bookingInfo::Seat seatSelection::findSeatDetails(const ordered_json& projection, int row, int col) {
+    for (const auto& seat : projection["seats"]) {
+        if (seat["row"] == row && seat["col"] == col) {
+            return { seat["row"], seat["col"], seat["price"], seat["type"] };
+        }
+    }
+    return { -1, -1, 0.0, "" }; 
+}
+
+bool seatSelection::isSeatTaken(const ordered_json& projection, int row, int col) {
+    for (const auto& seat : projection["seats"]) {
+        if (seat["row"] == row && seat["col"] == col) {
+            return seat["taken"];
+        }
+    }
+    return true;
+}
+
 bool seatSelection::isSeatAlreadySelected(int row, int col) {
     for (const auto& seat : bookingInfo::selectedSeats) {
         if (seat.row == row && seat.col == col) {
@@ -8,6 +26,8 @@ bool seatSelection::isSeatAlreadySelected(int row, int col) {
     }
     return false;
 }
+
+
 
 void seatSelection::display(PageHandler& pages) {
     system("CLS");
@@ -57,15 +77,38 @@ void seatSelection::display(PageHandler& pages) {
 }
 
 void seatSelection::actionHandler(PageHandler& pages) {
+    // Reset selections from any previous attempt
+    bookingInfo::selectedSeats.clear();
+    bookingInfo::totalCost = 0.0;
+
+    ordered_json data = getCitiesData();
+    ordered_json projectionData;
+
+    // Pre-load the projection data so we don't search for it repeatedly
+    for (const auto& city : data["cities"]) if (city["name"] == bookingInfo::city)
+        for (const auto& cinema : city["cinemas"]) if (cinema["name"] == bookingInfo::cinema)
+            for (const auto& movie : cinema["movies"]) if (movie["title"] == bookingInfo::movie)
+                for (const auto& projection : movie["projections"]) if (projection["datetime"] == bookingInfo::projectionDatetime)
+                    projectionData = projection;
+
+    if (projectionData.is_null()) {
+        std::cout << "Error: Could not load projection data.\n";
+        system("pause");
+        pages.seatSelectionPageShouldDisplay = false;
+        pages.dashboardPageShouldDisplay = true;
+        return;
+    }
+
     int row, col;
     char action;
 
     while (true) {
-        display(pages); 
+        display(pages); // Refresh display
         std::cout << "\n--------------------------------------------------------------------------\n";
         std::cout << "Your selection: ";
         for (const auto& s : bookingInfo::selectedSeats) std::cout << "R" << s.row << "C" << s.col << " ";
-        std::cout << "\n\nEnter 's' to select a seat, 'u' to unselect, 'd' when done: ";
+        std::cout << "\nTotal Cost: $" << std::fixed << std::setprecision(2) << bookingInfo::totalCost << std::endl;
+        std::cout << "\nEnter 's' to select, 'u' to unselect, 'd' when done: ";
         std::cin >> action;
 
         if (action == 'd') {
@@ -87,44 +130,49 @@ void seatSelection::actionHandler(PageHandler& pages) {
             }
 
             if (action == 's') {
-                bookingInfo::selectedSeats.push_back({ row, col });
+                if (isSeatTaken(projectionData, row, col)) {
+                    std::cout << "This seat is already taken! Please choose another.\n";
+                }
+                else if (isSeatAlreadySelected(row, col)) {
+                    std::cout << "You have already selected this seat.\n";
+                }
+                else {
+                    bookingInfo::Seat newSeat = findSeatDetails(projectionData, row, col);
+                    if (newSeat.row != -1) {
+                        bookingInfo::selectedSeats.push_back(newSeat);
+                        bookingInfo::totalCost += newSeat.price;
+                    }
+                    else {
+                        std::cout << "Seat not found.\n";
+                    }
+                }
             }
-            else { 
-                bookingInfo::selectedSeats.erase(
-                    std::remove_if(bookingInfo::selectedSeats.begin(), bookingInfo::selectedSeats.end(),
-                        [row, col](const bookingInfo::Seat& seat) {
-                            return seat.row == row && seat.col == col;
-                        }),
-                    bookingInfo::selectedSeats.end());
+            else {
+                auto it = std::remove_if(bookingInfo::selectedSeats.begin(), bookingInfo::selectedSeats.end(),
+                    [row, col, &projectionData](const bookingInfo::Seat& seat) {
+                        if (seat.row == row && seat.col == col) {
+                            bookingInfo::totalCost -= seat.price; 
+                            return true;
+                        }
+                        return false;
+                    });
+                bookingInfo::selectedSeats.erase(it, bookingInfo::selectedSeats.end());
             }
         }
         else {
             std::cout << "Invalid action.\n";
-            system("pause");
         }
+        system("pause");
     }
-
 
     if (bookingInfo::selectedSeats.empty()) {
-        std::cout << "No seats selected. Returning to dashboard.\n";
+        pages.seatSelectionPageShouldDisplay = false;
+        pages.dashboardPageShouldDisplay = true;
     }
     else {
-        if (updateSeatStatusInJson()) {
-            system("CLS");
-            std::cout << "+-----------------------------+\n";
-            std::cout << "|    BOOKING CONFIRMED!       |\n";
-            std::cout << "+-----------------------------+\n";
-            std::cout << "You have successfully booked seat(s): ";
-            for (const auto& s : bookingInfo::selectedSeats) std::cout << "R" << s.row << "C" << s.col << " ";
-            std::cout << "\nFor " << bookingInfo::movie << " at " << bookingInfo::projectionDatetime << std::endl;
-        }
-        else {
-            std::cout << "Error: Could not complete booking. Please try again.\n";
-        }
+      
+        pages.seatSelectionPageShouldDisplay = false;
+        pages.paymentPageShouldDisplay = true;
     }
-
-    bookingInfo::selectedSeats.clear();
-    pages.seatSelectionPageShouldDisplay = false;
-    pages.dashboardPageShouldDisplay = true;
-    system("pause");
 }
+

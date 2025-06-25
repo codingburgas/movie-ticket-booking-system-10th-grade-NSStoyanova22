@@ -11,6 +11,7 @@
 #include "seatSelection.h"
 #include "search.h" 
 #include "admin.h" 
+#include "payment.h"
 
 class App {
 public:
@@ -29,5 +30,6 @@ private:
 	seatSelection seatS;
 	Search searchPage;
 	Admin adminPage;
+	Payment paymentPage;
 	bool running = true;
 };

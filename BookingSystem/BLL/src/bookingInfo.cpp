@@ -7,4 +7,5 @@ namespace bookingInfo {
 	std::string projectionDatetime = "";
 	std::string hall = "";
 	std::vector<Seat> selectedSeats;
+	double totalCost = 0.0; 
 }

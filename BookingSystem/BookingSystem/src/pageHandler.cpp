@@ -12,6 +12,7 @@ PageHandler::PageHandler() {
     seatSelectionPageShouldDisplay = false;
     searchPageShouldDisplay = false;
     adminPageShouldDisplay = false;
+    paymentPageShouldDisplay = false;
 }
 
 PageHandler pages;

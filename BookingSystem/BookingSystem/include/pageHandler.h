@@ -14,4 +14,5 @@ public:
     bool seatSelectionPageShouldDisplay;
     bool searchPageShouldDisplay;
     bool adminPageShouldDisplay;
+    bool paymentPageShouldDisplay;
 };

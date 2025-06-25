@@ -52,6 +52,11 @@ void App::pageHandler() {
 		adminPage.actionHandler(pages);
 		return;
 	}
+	if (pages.paymentPageShouldDisplay) {
+		paymentPage.display(pages);
+		paymentPage.actionHandler(pages);
+		return;
+	}
 	if (pages.exitApp) {
 		running = false;
 		return;

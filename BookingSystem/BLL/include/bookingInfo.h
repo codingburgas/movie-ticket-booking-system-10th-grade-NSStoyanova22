@@ -13,6 +13,9 @@ namespace bookingInfo {
     struct Seat {
         int row;
         int col;
+        double price;
+        std::string type;
     };
     extern std::vector<Seat> selectedSeats;
+    extern double totalCost;
 }
