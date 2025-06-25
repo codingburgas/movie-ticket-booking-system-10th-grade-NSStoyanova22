@@ -143,3 +143,62 @@ bool saveCitiesData(const ordered_json& data) {
     std::cout << "Error: Unable to open cities.json for writing.\n";
     return false;
 }
+
+
+bool saveNewBooking() {
+    ordered_json bookings = getBookingsData();
+
+    //generate a simple unique id for the booking
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> distrib(10000, 99999);
+    std::string bookingId = "BK" + std::to_string(distrib(gen));
+
+    ordered_json newBooking = {
+        {"user_email", credentials::email},
+        {"movie_title", bookingInfo::movie},
+        {"cinema_name", bookingInfo::cinema},
+        {"city_name", bookingInfo::city},
+        {"projection_datetime", bookingInfo::projectionDatetime},
+        {"hall", bookingInfo::hall},
+        {"total_cost", bookingInfo::totalCost},
+        {"seats", json::array()}
+    };
+
+    for (const auto& seat : bookingInfo::selectedSeats) {
+        newBooking["seats"].push_back({
+            {"row", seat.row},
+            {"col", seat.col},
+            {"type", seat.type},
+            {"price", seat.price}
+            });
+    }
+
+    bookings[bookingId] = newBooking;
+
+    return saveBookingsData(bookings);
+}
+
+//get all data from bookings.json
+ordered_json getBookingsData() {
+    std::ifstream inFile("../../BookingSystem/Data/bookings.json");
+    ordered_json data;
+    if (inFile.is_open()) {
+        if (inFile.peek() != std::ifstream::traits_type::eof()) {
+            inFile >> data;
+        }
+        inFile.close();
+    }
+    return data;
+}
+
+//save data back to bookings.json
+bool saveBookingsData(const ordered_json& data) {
+    std::ofstream outFile("../../BookingSystem/Data/bookings.json", std::ios::out | std::ios::trunc);
+    if (outFile.is_open()) {
+        outFile << data.dump(4);
+        outFile.close();
+        return true;
+    }
+    return false;
+}

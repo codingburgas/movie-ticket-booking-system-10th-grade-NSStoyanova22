@@ -21,6 +21,7 @@ void Payment::actionHandler(PageHandler& pages) {
     std::cin >> cc_number;
 
     if (updateSeatStatusInJson()) {
+        saveNewBooking();
         system("CLS");
         std::cout << "+-----------------------------+\n";
         std::cout << "|    BOOKING CONFIRMED!       |\n";

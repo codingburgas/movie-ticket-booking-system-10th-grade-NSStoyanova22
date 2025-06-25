@@ -136,6 +136,7 @@
     <ClCompile Include="src\dashboard.cpp" />
     <ClCompile Include="src\login.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\myBookings.cpp" />
     <ClCompile Include="src\pageHandler.cpp" />
     <ClCompile Include="src\payment.cpp" />
     <ClCompile Include="src\pickCinema.cpp" />
@@ -152,6 +153,7 @@
     <ClInclude Include="include\dashboard.h" />
     <ClInclude Include="include\json.hpp" />
     <ClInclude Include="include\login.h" />
+    <ClInclude Include="include\myBookings.h" />
     <ClInclude Include="include\pageHandler.h" />
     <ClInclude Include="include\payment.h" />
     <ClInclude Include="include\pch.h" />

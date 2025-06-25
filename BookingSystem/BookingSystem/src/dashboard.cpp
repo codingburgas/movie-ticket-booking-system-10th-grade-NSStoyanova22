@@ -46,10 +46,12 @@ void Dashboard::actionHandler(PageHandler& pages) {
         pages.dashboardPageShouldDisplay = false;
         break;
     case 3:
-
+        pages.dashboardPageShouldDisplay = false;
+        pages.myBookingsPageShouldDisplay = true;
         break;
     case 4:
-
+        pages.dashboardPageShouldDisplay = false;
+        pages.myBookingsPageShouldDisplay = true;
         break;
     case 5:
         if (ifAdmin(credentials::username)) {

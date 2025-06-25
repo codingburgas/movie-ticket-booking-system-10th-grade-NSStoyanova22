@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <random> 
 #include "pch.h"
 #include "../../BookingSystem/include/pch.h"
 #include "../../BLL/include/credentials.h"
@@ -15,3 +16,6 @@ bool loginUser(std::string username, std::string email, std::string password);
 ordered_json getCitiesData();
 bool saveCitiesData(const ordered_json& data);
 bool updateSeatStatusInJson();
+bool saveNewBooking();
+ordered_json getBookingsData();
+bool saveBookingsData(const ordered_json& data);

@@ -12,6 +12,7 @@
 #include "search.h" 
 #include "admin.h" 
 #include "payment.h"
+#include "myBookings.h"
 
 class App {
 public:
@@ -31,5 +32,6 @@ private:
 	Search searchPage;
 	Admin adminPage;
 	Payment paymentPage;
+	MyBookings myBookingsPage;
 	bool running = true;
 };

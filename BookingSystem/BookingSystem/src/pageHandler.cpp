@@ -13,6 +13,7 @@ PageHandler::PageHandler() {
     searchPageShouldDisplay = false;
     adminPageShouldDisplay = false;
     paymentPageShouldDisplay = false;
+    myBookingsPageShouldDisplay = false;
 }
 
 PageHandler pages;
