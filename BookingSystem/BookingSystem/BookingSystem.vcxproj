@@ -137,6 +137,7 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\pageHandler.cpp" />
     <ClCompile Include="src\pickCinema.cpp" />
+    <ClCompile Include="src\pickMovie.cpp" />
     <ClCompile Include="src\register.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +149,7 @@
     <ClInclude Include="include\pageHandler.h" />
     <ClInclude Include="include\pch.h" />
     <ClInclude Include="include\pickCinema.h" />
+    <ClInclude Include="include\pickMovie.h" />
     <ClInclude Include="include\register.h" />
   </ItemGroup>
   <ItemGroup>

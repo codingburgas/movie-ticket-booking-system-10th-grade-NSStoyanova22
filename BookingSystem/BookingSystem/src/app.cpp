@@ -25,6 +25,13 @@ void App::pageHandler() {
 		dash.actionHandler(pages);
 		return;
 	}
+	if (pages.pickACinemaPageShouldDisplay) {
+		pickC.display(pages);
+		pickC.actionHandler(pages);
+	}if (pages.pickAMovieShouldDisplay) {
+		pickM.display(pages);
+		pickM.actionHandler(pages);
+	}
 	if (pages.exitApp) {
 		running = false;
 		return;

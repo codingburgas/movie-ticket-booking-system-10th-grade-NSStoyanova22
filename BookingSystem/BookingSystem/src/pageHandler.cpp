@@ -6,6 +6,8 @@ PageHandler::PageHandler() {
     registerPageShouldDisplay = false;
     loginPageShouldDisplay = false;
     dashboardPageShouldDisplay = false;
+    pickACinemaPageShouldDisplay = false;
+    pickAMovieShouldDisplay = false;
 }
 
 PageHandler pages;

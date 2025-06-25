@@ -145,12 +145,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\bookingInfo.h" />
     <ClInclude Include="include\credentials.h" />
     <ClInclude Include="include\pch.h" />
     <ClInclude Include="include\register.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\BLL.cpp" />
+    <ClCompile Include="src\bookingInfo.cpp" />
     <ClCompile Include="src\credentials.cpp" />
     <ClCompile Include="src\register.cpp" />
   </ItemGroup>
