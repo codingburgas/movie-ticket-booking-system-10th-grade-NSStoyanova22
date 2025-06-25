@@ -11,6 +11,7 @@ PageHandler::PageHandler() {
     pickAShowPageShouldDisplay = false;     
     seatSelectionPageShouldDisplay = false;
     searchPageShouldDisplay = false;
+    adminPageShouldDisplay = false;
 }
 
 PageHandler pages;

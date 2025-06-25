@@ -47,6 +47,11 @@ void App::pageHandler() {
 		searchPage.actionHandler(pages);
 		return;
 	}
+	if (pages.adminPageShouldDisplay) {
+		adminPage.display(pages);
+		adminPage.actionHandler(pages);
+		return;
+	}
 	if (pages.exitApp) {
 		running = false;
 		return;

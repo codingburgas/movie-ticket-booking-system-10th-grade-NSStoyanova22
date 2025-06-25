@@ -4,6 +4,7 @@
 #include "../../BLL/include/register.h"
 #include "../../DAL/include/files.h"
 
+
 class Dashboard {
 public:
 	void display(PageHandler& pages);

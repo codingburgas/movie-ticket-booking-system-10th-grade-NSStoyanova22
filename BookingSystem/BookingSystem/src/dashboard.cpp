@@ -11,10 +11,8 @@ void Dashboard::display(PageHandler& pages) {
     std::cout << "4 > Cancel a booking\n\n";
 
     if (ifAdmin(credentials::username)) {
-        std::cout << "Admin options: \n";
-        std::cout << "5 > Manage movies\n";
-        std::cout << "6 > Manage shows\n";
-        std::cout << "7 > View all bookings\n\n";
+        std::cout << "--- Admin Options ---\n";
+        std::cout << "5 > Go to Admin Panel\n\n";
     }
 
     std::cout << "9 > Log out\n";
@@ -55,28 +53,15 @@ void Dashboard::actionHandler(PageHandler& pages) {
         break;
     case 5:
         if (ifAdmin(credentials::username)) {
-
+            pages.dashboardPageShouldDisplay = false;
+            pages.adminPageShouldDisplay = true;
         }
         else {
             std::cout << "Invalid option.\n";
+            system("pause");
         }
         break;
-    case 6:
-        if (ifAdmin(credentials::username)) {
-
-        }
-        else {
-            std::cout << "Invalid option.\n";
-        }
-        break;
-    case 7:
-        if (ifAdmin(credentials::username)) {
-
-        }
-        else {
-            std::cout << "Invalid option.\n";
-        }
-        break;
+    
     case 9:
         credentials::username = "";
         credentials::firstName = "";

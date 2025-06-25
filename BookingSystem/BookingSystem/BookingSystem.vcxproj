@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\admin.cpp" />
     <ClCompile Include="src\app.cpp" />
     <ClCompile Include="src\bookingSystem.cpp" />
     <ClCompile Include="src\dashboard.cpp" />
@@ -144,6 +145,7 @@
     <ClCompile Include="src\seatSelection.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\admin.h" />
     <ClInclude Include="include\app.h" />
     <ClInclude Include="include\bookingSystem.h" />
     <ClInclude Include="include\dashboard.h" />

@@ -10,6 +10,7 @@
 #include "pickShow.h"
 #include "seatSelection.h"
 #include "search.h" 
+#include "admin.h" 
 
 class App {
 public:
@@ -27,5 +28,6 @@ private:
 	pickShow pickS;               
 	seatSelection seatS;
 	Search searchPage;
+	Admin adminPage;
 	bool running = true;
 };
