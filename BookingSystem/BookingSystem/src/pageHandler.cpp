@@ -8,6 +8,8 @@ PageHandler::PageHandler() {
     dashboardPageShouldDisplay = false;
     pickACinemaPageShouldDisplay = false;
     pickAMovieShouldDisplay = false;
+    pickAShowPageShouldDisplay = false;     
+    seatSelectionPageShouldDisplay = false;
 }
 
 PageHandler pages;

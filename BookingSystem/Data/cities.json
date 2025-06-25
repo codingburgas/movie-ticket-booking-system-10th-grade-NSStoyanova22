@@ -1,2442 +1,2442 @@
 {
-  "cities": [
-    {
-      "name": "Sofia",
-      "cinemas": [
+    "cities": [
         {
-          "name": "Cinema City Mall of Sofia",
-          "movies": [
-            {
-              "title": "The Dark Knight",
-              "projections": [
+            "name": "Sofia",
+            "cinemas": [
                 {
-                  "datetime": "2025-06-20 00:00",
-                  "hall": "Hall 1",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
+                    "name": "Cinema City Mall of Sofia",
+                    "movies": [
+                        {
+                            "title": "The Dark Knight",
+                            "projections": [
+                                {
+                                    "datetime": "2025-06-20 00:00",
+                                    "hall": "Hall 1",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "datetime": "2025-06-20 03:00",
+                                    "hall": "Hall 2",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Avengers: Endgame",
+                            "projections": [
+                                {
+                                    "datetime": "2025-06-20 00:00",
+                                    "hall": "Hall 1",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "datetime": "2025-06-20 03:00",
+                                    "hall": "Hall 2",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Interstellar",
+                            "projections": [
+                                {
+                                    "datetime": "2025-06-20 00:00",
+                                    "hall": "Hall 1",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "datetime": "2025-06-20 03:00",
+                                    "hall": "Hall 2",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": true
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                  "datetime": "2025-06-20 03:00",
-                  "hall": "Hall 2",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
+                    "name": "Arena The Mall",
+                    "movies": [
+                        {
+                            "title": "The Matrix",
+                            "projections": [
+                                {
+                                    "datetime": "2025-06-21 00:00",
+                                    "hall": "Hall 1",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "datetime": "2025-06-21 03:00",
+                                    "hall": "Hall 2",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "The Dark Knight",
+                            "projections": [
+                                {
+                                    "datetime": "2025-06-21 00:00",
+                                    "hall": "Hall 1",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "datetime": "2025-06-21 03:00",
+                                    "hall": "Hall 2",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "title": "Avengers: Endgame",
-              "projections": [
-                {
-                  "datetime": "2025-06-20 00:00",
-                  "hall": "Hall 1",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                },
-                {
-                  "datetime": "2025-06-20 03:00",
-                  "hall": "Hall 2",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Interstellar",
-              "projections": [
-                {
-                  "datetime": "2025-06-20 00:00",
-                  "hall": "Hall 1",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                },
-                {
-                  "datetime": "2025-06-20 03:00",
-                  "hall": "Hall 2",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+            ]
         },
         {
-          "name": "Arena The Mall",
-          "movies": [
-            {
-              "title": "The Matrix",
-              "projections": [
+            "name": "Plovdiv",
+            "cinemas": [
                 {
-                  "datetime": "2025-06-21 00:00",
-                  "hall": "Hall 1",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                },
-                {
-                  "datetime": "2025-06-21 03:00",
-                  "hall": "Hall 2",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
+                    "name": "Cinema City Plovdiv",
+                    "movies": [
+                        {
+                            "title": "Avengers: Endgame",
+                            "projections": [
+                                {
+                                    "datetime": "2025-06-22 00:00",
+                                    "hall": "Hall 1",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "datetime": "2025-06-22 03:00",
+                                    "hall": "Hall 2",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Interstellar",
+                            "projections": [
+                                {
+                                    "datetime": "2025-06-22 00:00",
+                                    "hall": "Hall 1",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "datetime": "2025-06-22 03:00",
+                                    "hall": "Hall 2",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "title": "The Dark Knight",
-              "projections": [
-                {
-                  "datetime": "2025-06-21 00:00",
-                  "hall": "Hall 1",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                },
-                {
-                  "datetime": "2025-06-21 03:00",
-                  "hall": "Hall 2",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Plovdiv",
-      "cinemas": [
+            ]
+        },
         {
-          "name": "Cinema City Plovdiv",
-          "movies": [
-            {
-              "title": "Avengers: Endgame",
-              "projections": [
+            "name": "Varna",
+            "cinemas": [
                 {
-                  "datetime": "2025-06-22 00:00",
-                  "hall": "Hall 1",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                },
-                {
-                  "datetime": "2025-06-22 03:00",
-                  "hall": "Hall 2",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
+                    "name": "Cinema City Varna",
+                    "movies": [
+                        {
+                            "title": "Inception",
+                            "projections": [
+                                {
+                                    "datetime": "2025-06-23 00:00",
+                                    "hall": "Hall 1",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "datetime": "2025-06-23 03:00",
+                                    "hall": "Hall 2",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Avengers: Endgame",
+                            "projections": [
+                                {
+                                    "datetime": "2025-06-23 00:00",
+                                    "hall": "Hall 1",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "datetime": "2025-06-23 03:00",
+                                    "hall": "Hall 2",
+                                    "seats": [
+                                        {
+                                            "row": 1,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 1,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 2,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 3,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 4,
+                                            "col": 5,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 1,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 2,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 3,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 4,
+                                            "taken": false
+                                        },
+                                        {
+                                            "row": 5,
+                                            "col": 5,
+                                            "taken": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "title": "Interstellar",
-              "projections": [
-                {
-                  "datetime": "2025-06-22 00:00",
-                  "hall": "Hall 1",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                },
-                {
-                  "datetime": "2025-06-22 03:00",
-                  "hall": "Hall 2",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    },
-    {
-      "name": "Varna",
-      "cinemas": [
-        {
-          "name": "Cinema City Varna",
-          "movies": [
-            {
-              "title": "Inception",
-              "projections": [
-                {
-                  "datetime": "2025-06-23 00:00",
-                  "hall": "Hall 1",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                },
-                {
-                  "datetime": "2025-06-23 03:00",
-                  "hall": "Hall 2",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Avengers: Endgame",
-              "projections": [
-                {
-                  "datetime": "2025-06-23 00:00",
-                  "hall": "Hall 1",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                },
-                {
-                  "datetime": "2025-06-23 03:00",
-                  "hall": "Hall 2",
-                  "seats": [
-                    {
-                      "row": 1,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 1,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 2,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 3,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 4,
-                      "col": 5,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 1,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 2,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 3,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 4,
-                      "taken": false
-                    },
-                    {
-                      "row": 5,
-                      "col": 5,
-                      "taken": false
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }

@@ -8,7 +8,7 @@ void pickMovie::display(PageHandler& pages) {
     ordered_json data = getCitiesData();
     if (data.empty()) return;
 
-    // Find the selected city and cinema in the JSON structure
+    
     for (const auto& city : data["cities"]) {
         if (city["name"] == bookingInfo::city) {
             for (const auto& cinema : city["cinemas"]) {
@@ -18,7 +18,7 @@ void pickMovie::display(PageHandler& pages) {
                         std::cout << "No movies currently showing at this location.\n";
                         return;
                     }
-                    // List all movies available in that cinema
+                   
                     int i = 1;
                     for (const auto& movie : cinema["movies"]) {
                         std::cout << i++ << " > " << movie["title"] << std::endl;
@@ -44,28 +44,25 @@ void pickMovie::actionHandler(PageHandler& pages) {
 
     if (choice == 0) {
         pages.pickAMovieShouldDisplay = false;
-        pages.pickACinemaPageShouldDisplay = true; // Go back to cinema selection
+        pages.pickACinemaPageShouldDisplay = true; 
         return;
     }
 
     ordered_json data = getCitiesData();
     if (data.empty()) return;
 
-    // Navigate to the correct movie to validate the choice
     for (const auto& city : data["cities"]) {
         if (city["name"] == bookingInfo::city) {
             for (const auto& cinema : city["cinemas"]) {
                 if (cinema["name"] == bookingInfo::cinema) {
                     if (choice > 0 && choice <= cinema["movies"].size()) {
-                        // Choice is valid, get the movie title
                         bookingInfo::movie = cinema["movies"][choice - 1]["title"];
 
                         std::cout << "\nYou have selected: " << bookingInfo::movie << std::endl;
                         system("pause");
 
-                        // Transition to the next page
                         pages.pickAMovieShouldDisplay = false;
-                      
+                        pages.pickAShowPageShouldDisplay = true;
                         return;
                     }
                 }
@@ -73,7 +70,6 @@ void pickMovie::actionHandler(PageHandler& pages) {
         }
     }
 
-    // If we get here, the choice was invalid
     std::cout << "Invalid movie choice.\n";
     system("pause");
 }

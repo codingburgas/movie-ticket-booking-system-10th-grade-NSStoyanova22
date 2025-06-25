@@ -7,6 +7,8 @@
 #include "bookingSystem.h"
 #include"pickCinema.h"
 #include "pickMovie.h"
+#include "pickShow.h"
+#include "seatSelection.h"
 
 class App {
 public:
@@ -21,5 +23,7 @@ private:
 	pickCinema pickC;
 	pickMovie pickM;
 	PageHandler pages;
+	pickShow pickS;               
+	seatSelection seatS;
 	bool running = true;
 };

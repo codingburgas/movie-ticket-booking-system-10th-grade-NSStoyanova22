@@ -32,6 +32,16 @@ void App::pageHandler() {
 		pickM.display(pages);
 		pickM.actionHandler(pages);
 	}
+	if (pages.pickAShowPageShouldDisplay) {
+		pickS.display(pages);
+		pickS.actionHandler(pages);
+		return;
+	}
+	if (pages.seatSelectionPageShouldDisplay) {
+		seatS.display(pages);
+		seatS.actionHandler(pages);
+		return;
+	}
 	if (pages.exitApp) {
 		running = false;
 		return;

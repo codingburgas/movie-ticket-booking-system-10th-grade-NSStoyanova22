@@ -10,4 +10,6 @@ public:
     bool dashboardPageShouldDisplay;
     bool pickACinemaPageShouldDisplay;
     bool pickAMovieShouldDisplay;
+    bool pickAShowPageShouldDisplay;     
+    bool seatSelectionPageShouldDisplay;
 };

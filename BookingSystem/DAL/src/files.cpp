@@ -92,3 +92,43 @@ ordered_json getCitiesData() {
     inFile.close();
     return data;
 }
+
+bool updateSeatStatusInJson() {
+    ordered_json data = getCitiesData();
+    if (data.empty()) return false;
+
+    for (auto& city : data["cities"]) {
+        if (city["name"] == bookingInfo::city) {
+            for (auto& cinema : city["cinemas"]) {
+                if (cinema["name"] == bookingInfo::cinema) {
+                    for (auto& movie : cinema["movies"]) {
+                        if (movie["title"] == bookingInfo::movie) {
+                            for (auto& projection : movie["projections"]) {
+                                if (projection["datetime"] == bookingInfo::projectionDatetime) {
+                                    for (auto& seat : projection["seats"]) {
+                                        for (const auto& selectedSeat : bookingInfo::selectedSeats) {
+                                            if (seat["row"] == selectedSeat.row && seat["col"] == selectedSeat.col) {
+                                                seat["taken"] = true;
+                                            }
+                                        }
+                                    }
+
+                                    std::ofstream outFile("../../BookingSystem/Data/cities.json", std::ios::out | std::ios::trunc);
+                                    if (outFile.is_open()) {
+                                        outFile << data.dump(4);
+                                        outFile.close();
+                                        return true;
+                                    }
+                                    else {
+                                        return false; 
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return false; 
+}
