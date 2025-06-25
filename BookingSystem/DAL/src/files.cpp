@@ -132,3 +132,14 @@ bool updateSeatStatusInJson() {
     }
     return false; 
 }
+
+bool saveCitiesData(const ordered_json& data) {
+    std::ofstream outFile("../../BookingSystem/Data/cities.json", std::ios::out | std::ios::trunc);
+    if (outFile.is_open()) {
+        outFile << data.dump(4); 
+        outFile.close();
+        return true;
+    }
+    std::cout << "Error: Unable to open cities.json for writing.\n";
+    return false;
+}
