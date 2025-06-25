@@ -140,6 +140,7 @@
     <ClCompile Include="src\pickMovie.cpp" />
     <ClCompile Include="src\pickShow.cpp" />
     <ClCompile Include="src\register.cpp" />
+    <ClCompile Include="src\search.cpp" />
     <ClCompile Include="src\seatSelection.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +155,7 @@
     <ClInclude Include="include\pickMovie.h" />
     <ClInclude Include="include\pickShow.h" />
     <ClInclude Include="include\register.h" />
+    <ClInclude Include="include\search.h" />
     <ClInclude Include="include\seatSelection.h" />
   </ItemGroup>
   <ItemGroup>

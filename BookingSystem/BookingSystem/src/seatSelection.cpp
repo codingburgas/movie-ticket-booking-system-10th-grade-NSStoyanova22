@@ -117,7 +117,6 @@ void seatSelection::actionHandler(PageHandler& pages) {
             std::cout << "You have successfully booked seat(s): ";
             for (const auto& s : bookingInfo::selectedSeats) std::cout << "R" << s.row << "C" << s.col << " ";
             std::cout << "\nFor " << bookingInfo::movie << " at " << bookingInfo::projectionDatetime << std::endl;
-            std::cout << "A confirmation has been sent to your email (simulation).\n\n";
         }
         else {
             std::cout << "Error: Could not complete booking. Please try again.\n";

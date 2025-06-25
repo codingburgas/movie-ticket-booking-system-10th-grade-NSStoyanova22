@@ -42,6 +42,11 @@ void App::pageHandler() {
 		seatS.actionHandler(pages);
 		return;
 	}
+	if (pages.searchPageShouldDisplay) {
+		searchPage.display(pages);
+		searchPage.actionHandler(pages);
+		return;
+	}
 	if (pages.exitApp) {
 		running = false;
 		return;

@@ -9,6 +9,7 @@
 #include "pickMovie.h"
 #include "pickShow.h"
 #include "seatSelection.h"
+#include "search.h" 
 
 class App {
 public:
@@ -25,5 +26,6 @@ private:
 	PageHandler pages;
 	pickShow pickS;               
 	seatSelection seatS;
+	Search searchPage;
 	bool running = true;
 };

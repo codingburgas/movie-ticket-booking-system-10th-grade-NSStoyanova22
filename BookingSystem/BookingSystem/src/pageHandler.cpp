@@ -10,6 +10,7 @@ PageHandler::PageHandler() {
     pickAMovieShouldDisplay = false;
     pickAShowPageShouldDisplay = false;     
     seatSelectionPageShouldDisplay = false;
+    searchPageShouldDisplay = false;
 }
 
 PageHandler pages;

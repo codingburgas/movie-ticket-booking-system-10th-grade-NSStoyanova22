@@ -8,7 +8,6 @@ void pickShow::display(PageHandler& pages) {
     ordered_json data = getCitiesData();
     if (data.empty()) return;
 
-    // Navigate to the correct movie and list its projections
     for (const auto& city : data["cities"]) {
         if (city["name"] == bookingInfo::city) {
             for (const auto& cinema : city["cinemas"]) {
@@ -44,14 +43,13 @@ void pickShow::actionHandler(PageHandler& pages) {
 
     if (choice == 0) {
         pages.pickAShowPageShouldDisplay = false;
-        pages.pickAMovieShouldDisplay = true; // Go back to movie selection
+        pages.pickAMovieShouldDisplay = true;
         return;
     }
 
     ordered_json data = getCitiesData();
     if (data.empty()) return;
 
-    // Find the chosen projection and save its details
     for (const auto& city : data["cities"]) {
         if (city["name"] == bookingInfo::city) {
             for (const auto& cinema : city["cinemas"]) {

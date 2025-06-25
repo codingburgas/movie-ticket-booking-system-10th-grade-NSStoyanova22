@@ -12,4 +12,5 @@ public:
     bool pickAMovieShouldDisplay;
     bool pickAShowPageShouldDisplay;     
     bool seatSelectionPageShouldDisplay;
+    bool searchPageShouldDisplay;
 };
