@@ -1,1 +1,26 @@
-{}
+{
+    "BK41": {
+        "user_email": "n@gmail.com",
+        "booking_status": "Paid (Card)",
+        "movie_title": "Inception",
+        "cinema_name": "Cinema City Varna",
+        "city_name": "Varna",
+        "projection_datetime": "2025-06-23 00:00",
+        "hall": "Hall 1",
+        "total_cost": 24.0,
+        "seats": [
+            {
+                "row": 2,
+                "col": 2,
+                "type": "silver",
+                "price": 12.0
+            },
+            {
+                "row": 2,
+                "col": 3,
+                "type": "silver",
+                "price": 12.0
+            }
+        ]
+    }
+}

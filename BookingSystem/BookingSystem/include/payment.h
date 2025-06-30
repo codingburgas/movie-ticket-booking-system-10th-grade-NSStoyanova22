@@ -2,7 +2,9 @@
 #include "pch.h"
 #include "pageHandler.h"
 #include "../../DAL/include/files.h"
+#include "../../BLL/include/register.h"
 #include "../../BLL/include/bookingInfo.h"
+
 
 class Payment {
 public:

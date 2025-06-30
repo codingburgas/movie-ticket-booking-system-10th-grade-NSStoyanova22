@@ -2676,14 +2676,14 @@
                                         {
                                             "row": 2,
                                             "col": 2,
-                                            "taken": false,
+                                            "taken": true,
                                             "type": "silver",
                                             "price": 12.0
                                         },
                                         {
                                             "row": 2,
                                             "col": 3,
-                                            "taken": false,
+                                            "taken": true,
                                             "type": "silver",
                                             "price": 12.0
                                         },

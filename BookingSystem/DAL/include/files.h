@@ -16,6 +16,6 @@ bool loginUser(std::string username, std::string email, std::string password);
 ordered_json getCitiesData();
 bool saveCitiesData(const ordered_json& data);
 bool updateSeatStatusInJson();
-bool saveNewBooking();
+bool saveNewBooking(bool isCashReservation);
 ordered_json getBookingsData();
 bool saveBookingsData(const ordered_json& data);

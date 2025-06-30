@@ -108,20 +108,11 @@ bool updateSeatStatusInJson() {
                                     for (auto& seat : projection["seats"]) {
                                         for (const auto& selectedSeat : bookingInfo::selectedSeats) {
                                             if (seat["row"] == selectedSeat.row && seat["col"] == selectedSeat.col) {
-                                                seat["taken"] = true;
+                                                seat["taken"] = true; 
                                             }
                                         }
                                     }
-
-                                    std::ofstream outFile("../../BookingSystem/Data/cities.json", std::ios::out | std::ios::trunc);
-                                    if (outFile.is_open()) {
-                                        outFile << data.dump(4);
-                                        outFile.close();
-                                        return true;
-                                    }
-                                    else {
-                                        return false; 
-                                    }
+                                    return saveCitiesData(data);
                                 }
                             }
                         }
@@ -130,9 +121,8 @@ bool updateSeatStatusInJson() {
             }
         }
     }
-    return false; 
+    return false;
 }
-
 bool saveCitiesData(const ordered_json& data) {
     std::ofstream outFile("../../BookingSystem/Data/cities.json", std::ios::out | std::ios::trunc);
     if (outFile.is_open()) {
@@ -145,17 +135,27 @@ bool saveCitiesData(const ordered_json& data) {
 }
 
 
-bool saveNewBooking() {
+bool saveNewBooking(bool isCashReservation) {
     ordered_json bookings = getBookingsData();
 
     //generate a simple unique id for the booking
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_int_distribution<> distrib(10000, 99999);
-    std::string bookingId = "BK" + std::to_string(distrib(gen));
+
+
+    const std::string bookingStatus = isCashReservation ? "Reserved (Pay at Cinema)" : "Paid (Card)";
+    std::string customerEmail = credentials::email;
+
+    if (isCashReservation) {
+        std::cout << "Enter customer's email for the reservation: ";
+        getline(std::cin, customerEmail);
+        if (customerEmail.empty()) customerEmail = "N/A";
+    }
 
     ordered_json newBooking = {
-        {"user_email", credentials::email},
+        {"user_email", customerEmail},
+        {"booking_status", bookingStatus},
         {"movie_title", bookingInfo::movie},
         {"cinema_name", bookingInfo::cinema},
         {"city_name", bookingInfo::city},
@@ -174,6 +174,7 @@ bool saveNewBooking() {
             });
     }
 
+    std::string bookingId = "BK" + std::to_string(rand()); 
     bookings[bookingId] = newBooking;
 
     return saveBookingsData(bookings);
