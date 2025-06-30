@@ -14,6 +14,7 @@ PageHandler::PageHandler() {
     adminPageShouldDisplay = false;
     paymentPageShouldDisplay = false;
     myBookingsPageShouldDisplay = false;
+    browsePageShouldDisplay = false;
 }
 
 PageHandler pages;

@@ -149,6 +149,7 @@
     <ClInclude Include="include\credentials.h" />
     <ClInclude Include="include\pch.h" />
     <ClInclude Include="include\register.h" />
+    <ClInclude Include="include\utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\BLL.cpp" />

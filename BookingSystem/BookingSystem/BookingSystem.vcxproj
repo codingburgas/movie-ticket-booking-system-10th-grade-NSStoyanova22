@@ -133,6 +133,7 @@
     <ClCompile Include="src\admin.cpp" />
     <ClCompile Include="src\app.cpp" />
     <ClCompile Include="src\bookingSystem.cpp" />
+    <ClCompile Include="src\browse.cpp" />
     <ClCompile Include="src\dashboard.cpp" />
     <ClCompile Include="src\login.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="include\admin.h" />
     <ClInclude Include="include\app.h" />
     <ClInclude Include="include\bookingSystem.h" />
+    <ClInclude Include="include\browse.h" />
     <ClInclude Include="include\dashboard.h" />
     <ClInclude Include="include\json.hpp" />
     <ClInclude Include="include\login.h" />

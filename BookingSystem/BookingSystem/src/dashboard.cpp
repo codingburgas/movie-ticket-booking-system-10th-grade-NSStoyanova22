@@ -8,11 +8,12 @@ void Dashboard::display(PageHandler& pages) {
     std::cout << "1 > Search for a movie\n";
     std::cout << "2 > Book a ticket\n";
     std::cout << "3 > View my bookings\n";
-    std::cout << "4 > Cancel a booking\n\n";
+    std::cout << "4 > Cancel a booking\n";
+    std::cout << "5 > Browse cinema programs\n\n";
 
     if (ifAdmin(credentials::username)) {
         std::cout << "--- Admin Options ---\n";
-        std::cout << "5 > Go to Admin Panel\n\n";
+        std::cout << "6 > Go to Admin Panel\n\n";
     }
 
     std::cout << "9 > Log out\n";
@@ -54,6 +55,10 @@ void Dashboard::actionHandler(PageHandler& pages) {
         pages.myBookingsPageShouldDisplay = true;
         break;
     case 5:
+        pages.dashboardPageShouldDisplay = false;
+        pages.browsePageShouldDisplay = true;
+        break;
+    case 6:
         if (ifAdmin(credentials::username)) {
             pages.dashboardPageShouldDisplay = false;
             pages.adminPageShouldDisplay = true;

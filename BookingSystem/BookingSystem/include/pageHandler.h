@@ -16,4 +16,5 @@ public:
     bool adminPageShouldDisplay;
     bool paymentPageShouldDisplay;
     bool myBookingsPageShouldDisplay;
+    bool browsePageShouldDisplay;
 };

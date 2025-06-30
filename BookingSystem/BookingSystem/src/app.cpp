@@ -62,6 +62,11 @@ void App::pageHandler() {
 		myBookingsPage.actionHandler(pages);
 		return;
 	}
+	if (pages.browsePageShouldDisplay) {
+		browsePage.display(pages);
+		browsePage.actionHandler(pages);
+		return;
+	}
 	if (pages.exitApp) {
 		running = false;
 		return;
