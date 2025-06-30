@@ -89,3 +89,69 @@ The following are the requirements that we have defined for the movie ticket boo
 * Following the best practices for C++ / Git / GitHub is a mandatory requirement
 
 Additional requirements will be added later.
+
+
+
+<h1 align="center"><b>🎬 Movie Ticket System App 🎟️</b></h1>
+
+<div align="center">
+    <p>⭐ Pick a movie | 🍿 Choose your seat | 🎞️ Enjoy the show!</p>
+</div>
+
+---
+
+# 📋 About
+This is my movie ticket booking app — built entirely in C++ and running in the console. With it, you can browse movies, pick a city and cinema, choose your showtime, and book your seats easily. There's also an admin mode where you can add new movies, projections, and manage bookings. I made this project as part of my final assignment — hope you like it! 
+
+# ✨ Features
+### For Customers
+* **Login & Register:** You can make your own account and log in.
+* **Book a Ticket:** A full flow from picking a city and cinema to choosing your seat.
+* **Browse Program:** You can look at all movies and showtimes for a cinema without booking.
+* **Search Movies:** You can search for movies by title, genre, language, or release date.
+* **Seat Selection:** A map shows you which seats are free, taken, or reserved.
+* **View & Cancel Bookings:** You can see your booking history and cancel tickets.
+
+### For Admins
+* **Admin Panel:** A special menu for admins to manage the system.
+* **Manage Movies:** Admins can add new movies to a cinema or delete them.
+* **Manage Shows:** Admins can add, delete, or update showtimes for any movie.
+
+# 🛠️ How to Run
+1. 📥 Clone the project using the "Code" button or run this in git bash:
+```bash
+git clone https://github.com/codingburgas/movie-ticket-booking-system-10th-grade-NSStoyanova22.git
+```
+<br>
+2. 📂 Open `BookingSystem.sln` in Visual Studio 2022. <br><br>
+3. ▶️ Set `BookingSystem` as the StartUp Project and press F5 to run.
+
+# 💻 Languages and Tools
+<div align="left">
+  <img width="40" height="40" src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="C++">
+  <img width="40" height="40" src="https://img.icons8.com/?size=100&id=20931&format=png&color=000000" alt="Visual Studio">
+  <img width="40" height="40" src="https://img.icons8.com/?size=100&id=13331&format=png&color=000000" alt="JSON">
+</div>
+
+# 📁 Project Documents
+<ul>
+    <li><a href="https://codingburgas-my.sharepoint.com/:w:/r/personal/nsstoyanova22_codingburgas_bg/_layouts/15/Doc.aspx?sourcedoc=%7B17D307D4-7269-4C39-B620-B4D7C788B80F%7D&file=Documentation%20(1).docx&action=default&mobileredirect=true&wdOrigin=SEARCHENGINE.GOOGLE%2CAPPHOME-WEB.BANNER.UPLOAD&wdPreviousSession=fe64652a-929a-44f3-b0e1-c27f37180bf6&wdPreviousSessionSrc=AppHomeWeb&ct=1751311596947">Documentation</a></li>
+    <li><a href="https://codingburgas-my.sharepoint.com/:p:/g/personal/nsstoyanova22_codingburgas_bg/EWzYzi6RYzlIl68zDAJVfoAB5t-F8K4zY2gk3IBFBKoHjA?e=6mOMzs">Presentation</a></li>
+</ul>
+
+
+<br>
+<div align="center">
+<pre>
+      .--.
+     |o_o |
+     |:_/ |
+    //   \ \
+   (|     | )
+  /'\_   _/`\
+  \___)=(___/
+</pre>
+</div>
+<h2 align="center">
+ If you like my app, please give a 🌟 to the repository!
+</h2>
