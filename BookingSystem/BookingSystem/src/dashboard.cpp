@@ -3,6 +3,7 @@
 
 void Dashboard::display(PageHandler& pages) {
     system("CLS");
+    checkForNewMovies();
     std::cout << "Hello, " << credentials::firstName << " " << credentials::lastName << std::endl;
     std::cout << "What can we help you with today? \n";
     std::cout << "1 > Search for a movie\n";
@@ -85,3 +86,22 @@ void Dashboard::actionHandler(PageHandler& pages) {
     }
 }
 
+void Dashboard::checkForNewMovies() {
+    ordered_json data = getCitiesData();
+    if (data.empty()) return;
+
+    std::vector<std::string> newMovies;
+    std::string latestMovieTitle = "";
+
+    for (const auto& city : data["cities"]) {
+        for (const auto& cinema : city["cinemas"]) {
+            if (cinema.contains("movies") && !cinema["movies"].empty()) {
+                latestMovieTitle = cinema["movies"].back()["title"];
+            }
+        }
+    }
+
+    if (!latestMovieTitle.empty()) {
+        std::cout << "!!! NEW MOVIE OUT NOW: " << latestMovieTitle << " !!!\n\n";
+    }
+}

@@ -11,5 +11,6 @@ public:
 	void actionHandler(PageHandler& pages);
 	void setChoice();
 private:
+	void checkForNewMovies();
 	int choice;
 };
