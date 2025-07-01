@@ -136,7 +136,7 @@ git clone https://github.com/codingburgas/movie-ticket-booking-system-10th-grade
 # 📁 Project Documents
 <ul>
     <li><a href="https://codingburgas-my.sharepoint.com/:w:/r/personal/nsstoyanova22_codingburgas_bg/_layouts/15/Doc.aspx?sourcedoc=%7B17D307D4-7269-4C39-B620-B4D7C788B80F%7D&file=Documentation%20(1).docx&action=default&mobileredirect=true&wdOrigin=SEARCHENGINE.GOOGLE%2CAPPHOME-WEB.BANNER.UPLOAD&wdPreviousSession=fe64652a-929a-44f3-b0e1-c27f37180bf6&wdPreviousSessionSrc=AppHomeWeb&ct=1751311596947">Documentation</a></li>
-    <li><a href="https://codingburgas-my.sharepoint.com/:p:/g/personal/nsstoyanova22_codingburgas_bg/EWzYzi6RYzlIl68zDAJVfoAB5t-F8K4zY2gk3IBFBKoHjA?e=6mOMzs">Presentation</a></li>
+    <li><a href="https://docs.google.com/presentation/d/14nPbbgExUBr-umhKCIs-17hFt8WSVIqDqkbPesXvTtc/edit?slide=id.g4dfce81f19_0_45#slide=id.g4dfce81f19_0_45">Presentation</a></li>
 </ul>
 
 
