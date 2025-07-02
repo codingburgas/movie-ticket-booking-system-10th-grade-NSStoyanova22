@@ -2,6 +2,7 @@
 #include <string>
 #include <random> 
 #include "pch.h"
+#include "../../Dependencies/bcrypt.h"
 #include "../../BookingSystem/include/pch.h"
 #include "../../BLL/include/credentials.h"
 #include "../../BLL/include/bookingInfo.h"

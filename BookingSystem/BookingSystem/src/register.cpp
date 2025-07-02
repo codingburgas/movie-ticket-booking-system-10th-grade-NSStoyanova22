@@ -53,5 +53,7 @@ void Register::display(PageHandler& pages) {
 
 void Register::checkAndInsertCreds() {
     if (!checkValidity(credentials::username, credentials::email, credentials::password)) std::cout << "Invalid credentials!\n";
-    else insertRecord(credentials::username, credentials::firstName, credentials::lastName, credentials::email, credentials::password);
-}
+    else{
+        std::string hashedPassword = bcrypt::generateHash(credentials::password);
+        insertRecord(credentials::username, credentials::firstName, credentials::lastName, credentials::email, hashedPassword);
+    } 

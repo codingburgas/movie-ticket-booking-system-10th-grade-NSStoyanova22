@@ -59,7 +59,7 @@ bool loginUser(std::string username, std::string email, std::string password)
         ordered_json user = it.value();
 
         if (user.contains("email") && user["email"] == email && user.contains("username") && user["username"] == username) {
-            if (user.contains("password") && user["password"] == password) {
+            if (user.contains("password") && bcrypt::validatePassword(password, user["password"])) {
                 credentials::firstName = user.value("firstName", "");
                 credentials::lastName = user.value("lastName", "");
                 return true;
