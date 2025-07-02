@@ -18,7 +18,7 @@ void MyBookings::actionHandler(PageHandler& pages) {
         cancelBooking();
         system("pause");
     }
-    // Any other input will go back
+ 
     pages.myBookingsPageShouldDisplay = false;
     pages.dashboardPageShouldDisplay = true;
 }
@@ -59,7 +59,7 @@ void MyBookings::cancelBooking() {
 
     ordered_json bookingToCancel = bookings[bookingId];
 
-    // Step 1: Update cities.json to free the seats
+   
     ordered_json cities = getCitiesData();
     for (auto& city : cities["cities"]) {
         if (city["name"] == bookingToCancel["city_name"]) {
@@ -85,10 +85,10 @@ void MyBookings::cancelBooking() {
         }
     }
 
-    // Step 2: Remove the booking from bookings.json
+
     bookings.erase(bookingId);
 
-    // Step 3: Save both files
+
     if (saveCitiesData(cities) && saveBookingsData(bookings)) {
         std::cout << "Booking " << bookingId << " has been successfully cancelled.\n";
     }
